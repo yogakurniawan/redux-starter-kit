@@ -31,7 +31,7 @@ export function configureStore(options = {}) {
 
   const middlewareEnhancer = applyMiddleware(...middleware)
 
-  const storeEnhancers = [middlewareEnhancer, ...enhancers]
+  const storeEnhancers = [...enhancers, middlewareEnhancer]
 
   let finalCompose = devTools ? composeWithDevTools : compose
 
