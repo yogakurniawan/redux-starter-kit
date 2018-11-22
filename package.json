@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "A simple set of tools to make using Redux easier",
   "repository": "https://github.com/markerikson/redux-starter-kit",
-  "main": "dist/redux-starter-kit.cjs.js",
+  "main": "src/index.js",
   "module": "dist/redux-starter-kit.esm.js",
   "browser": "dist/redux-starter-kit.umd.js",
   "author": "Mark Erikson <mark@isquaredsoftware.com>",
